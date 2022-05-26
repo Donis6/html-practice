@@ -7,8 +7,8 @@ html:focus{
 }
 body {
 
-    background-color: white;
+    background-color: red;
 }
 h1 {
-    background-color: blue;
+    background-color: #0000ff;
 }
