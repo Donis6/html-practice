@@ -36,9 +36,8 @@ h1{
     border: 2 solid blue;
 }
 div {
-    position: right;
     width: 35px;
     height: 5px;
-    background-color: blue;
+    background-color: white;
     margin: 6px 0;
 }
