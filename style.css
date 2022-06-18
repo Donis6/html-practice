@@ -5,22 +5,15 @@ head{
     background-image:;
 }
 a:link{
-    color: blue;
-    background: transparent;
-    text-decoration: none;
-}
-
-a:visited{
-    color: red;
+    color: white;
     background: transparent;
     text-decoration: none;
 }
 
 a:hover{
-    color:white;
-    background: gray;
-    text-decoration: underline;
+    color: red;
 }
+
 a:active{
     color:green;
     background: transparent;
