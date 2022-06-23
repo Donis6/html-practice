@@ -6,36 +6,31 @@ body{
     background-image: url(pics/co-axial-scape\,emt.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: ;
 }
-ul{
+div {/* the lines menu*/
+    width: 35px;
+    height: 3px;
+    background-color:black;
+    margin: 5px 0;
+}
+ul{ /*this control the bar*/
     list-style-type:none;
     margin: 0%;
     padding: 0%;
-    overflow: hidden;
-    background-color:tnsparent;
+    background-color:transparent;
+    position: fixed; /*keeps the bar in ta window even when scroll*/
+    height: 100%;
+    overflow: auto;/* Enable to scroll if the bar has too much content*/
 }
-li{
+
+li{ /*this control the space of the word inside the bar*/
     float: right;
 }
 
-li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-
 a:link{
-    color: black;
+    color:black;
     background: transparent;
-    text-decoration: none;
-}
-
-a:hover{
-    color:none;
+    text-decoration:none;
 }
 
 a:active{
@@ -43,29 +38,30 @@ a:active{
     background: transparent;
     text-decoration: underline;
 }
+
+a:hover{
+    color:red;
+}
+
+a{ /*all hiper links*/
+    font-size:large;
+    color:Black; 
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 h1{
     color:black;
     font-size: 100px;
+    font: fixed;
     background-position-y:bottom;
     background-position: fixed;
 }
 p,h2{
     color: black;
-}
-
-a{
-    font-size: xx-large;
-    color:Black;
-    
-}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-div {
-    width: 35px;
-    height: 3px;
-    background-color:black;
-    margin: 6px 0;
 }
