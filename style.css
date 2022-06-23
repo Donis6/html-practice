@@ -19,8 +19,9 @@ ul{ /*this control the bar*/
     padding: 0%;
     background-color:transparent;
     position: fixed; /*keeps the bar in ta window even when scroll*/
-    height: 100%;
+    width: 100%;
     overflow: auto;/* Enable to scroll if the bar has too much content*/
+    top: 0;
 }
 
 li{ /*this control the space of the word inside the bar*/
