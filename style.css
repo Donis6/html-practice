@@ -12,13 +12,15 @@ div {/* the lines menu*/
     height: 3px;
     background-color:black;
     margin: 5px 0;
+    
 }
 ul{ /*this control the bar*/
     list-style-type:none;
     margin: 0%;
     padding: 0%;
     background-color:transparent;
-    position: fixed; /*keeps the bar in ta window even when scroll*/
+    position: -webkit-sticky; /*keeps the bar in ta window even when scroll*/
+    position: sticky;
     width: 100%;
     overflow: auto;/* Enable to scroll if the bar has too much content*/
     top: 0;
@@ -32,6 +34,7 @@ a:link{
     color:black;
     background: transparent;
     text-decoration:none;
+    
 }
 
 a:active{
@@ -47,6 +50,7 @@ a:hover{
 a{ /*all hiper links*/
     font-size:large;
     color:Black; 
+    white-space: 30px;
 }
 
 li a{
